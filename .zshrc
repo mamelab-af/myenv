@@ -1,16 +1,17 @@
-source ~/.zshrc_common_alias.sh
+source ~/.zshrc-common-alias.sh
 
-source ~/.zshrc_kafka_alias.sh
+source ~/.zshrc-kafka-alias.sh
 
-source ~/.zshrc_docker_setup.sh
-source ~/.zshrc_docker_alias.sh
+source ~/.zshrc-docker-setup.sh
+source ~/.zshrc-docker-alias.sh
 
-source ~/.zshrc_git_setup.sh
-source ~/.zshrc_git_alias.sh
+source ~/.zshrc-git-setup.sh
+source ~/.zshrc-git-alias.sh
 
-source ~/.zshrc_mysql_alias.sh
+source ~/.zshrc-mysql-alias.sh
+source ~/.zshrc-mysql-setup.sh
 
-source ~/.zshrc_anyenv_setup.sh
+source ~/.zshrc-anyenv-setup.sh
 
 ##### settings(go) #####
 

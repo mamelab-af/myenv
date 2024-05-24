@@ -2,33 +2,34 @@
 
 set -e
 
-./copy_zshrc.sh
+./copy-zshrc.sh
 
 ##### install homebrew #####
 
-./install_homebrew.sh
+./install-homebrew.sh
 
-# ./install_raycast.sh
-./install_stats.sh
-./install_maccy.sh
-./install_mos.sh
-./install_rectangle.sh
-./install_slack.sh
-./install_zoom.sh
-./install_google_chrome.sh
-./install_the_unarchiver.sh
-./install_kindle.sh
-./install_google_japanese_ime.sh
-./install_microsoft_teams.sh
+# ./install-raycast.sh
+./install-stats.sh
+./install-maccy.sh
+./install-mos.sh
+./install-rectangle.sh
+./install-slack.sh
+./install-zoom.sh
+./install-google-chrome.sh
+./install-the-unarchiver.sh
+./install-kindle.sh
+./install-google-japanese-ime.sh
+./install-microsoft-teams.sh
 
 ##### install for develop #####
 
-./install_wrap.sh
-./install_docker.sh
-./install_postman.sh
-./install_aws_vpn_client.sh
-./install_dbeaver_community.sh
+./install-wrap.sh
+./install-docker.sh
+./install-postman.sh
+./install-aws-vpn-client.sh
+./install-dbeaver-community.sh
 
-./install_anyenv.sh
-./install_anyenv_goenv.sh
-./install_anyenv_nodenv.sh
+./install-anyenv.sh
+./install-anyenv-goenv.sh
+./install-anyenv-nodenv.sh
+./install-mysql-client.sh
