@@ -1,9 +1,13 @@
 # myenv
 
-## Command
+## Run
+
 ```sh:
-./copy-zshrc.sh
-./initialize.sh
+./run.sh
+```
+
+```sh:
+make run
 ```
 
 ## Create & set github ssh
