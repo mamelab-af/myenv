@@ -12,17 +12,3 @@ source ~/.zshrc-mysql-alias.sh
 source ~/.zshrc-mysql-setup.sh
 
 source ~/.zshrc-anyenv-setup.sh
-
-##### settings(go) #####
-
-# export PATH="$PATH:$(go env GOPATH)/bin"
-
-
-##### settings(fvm) #####
-
-# export PATH=$PATH:$HOME/fvm/default/bin
-
-##### settings(coreutils - timeout) #####
-
-# PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
-    

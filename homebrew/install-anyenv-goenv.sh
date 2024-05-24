@@ -3,7 +3,7 @@
 set -e
 
 # Install goenv.
-anyenv install goenv
+yes | anyenv install goenv
 
 # Source .zshrc
 source ~/.zshrc

@@ -3,9 +3,9 @@
 set -e
 
 # Install nodenv.
-anyenv install nodenv
+yes | anyenv install nodenv
 
 # Source .zshrc
 source ~/.zshrc
 
-npm install -g yarn
+# npm install -g yarn
