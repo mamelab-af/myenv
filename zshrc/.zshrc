@@ -11,4 +11,6 @@ source ~/.zshrc-git-alias.sh
 source ~/.zshrc-mysql-alias.sh
 source ~/.zshrc-mysql-setup.sh
 
-source ~/.zshrc-anyenv-setup.sh
+# source ~/.zshrc-anyenv-setup.sh
+
+source ~/.zshrc-asdf-setup.sh

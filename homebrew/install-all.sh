@@ -2,6 +2,8 @@
 
 set -e
 
+##### install by homebrew #####
+
 ./install-homebrew.sh
 
 ./install-docker.sh
@@ -22,9 +24,15 @@ set -e
 ./install-by-homebrew.sh warp
 ./install-by-homebrew.sh zoom
 
-./install-anyenv.sh
+./install-by-homebrew.sh openjdk
+# https://formulae.brew.sh/formula/openjdk
+sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+#./install-by-homebrew.sh tomcat
 
 ##### install by anyenv #####
 
-./install-anyenv-goenv.sh
-./install-anyenv-nodenv.sh
+# ./install-anyenv.sh
+
+# ./install-anyenv-goenv.sh
+# ./install-anyenv-nodenv.sh
