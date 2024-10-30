@@ -23,6 +23,8 @@ set -e
 ./install-by-homebrew.sh the-unarchiver
 ./install-by-homebrew.sh warp
 ./install-by-homebrew.sh zoom
+./install-by-homebrew.sh microsoft-office --cask
+
 
 ./install-by-homebrew.sh openjdk
 # https://formulae.brew.sh/formula/openjdk

@@ -5,7 +5,7 @@ set -e
 ##### copy zshrc & sub shells #####
 
 (
-  cd zshrc
+  cd shell
   ./copy-zshrc.sh
 )
 
@@ -18,6 +18,7 @@ set -e
 
 ##### run knowledge #####
 
-# git clone https://github.com/support-project/docker-knowledge.git
+# (cd knowledge; git clone --depth 1 https://github.com/support-project/docker-knowledge.git . && rm -rf .git)
 (cd knowledge; docker-compose up -d)
+# localhost:8080
 # user/password : admin/admin123
