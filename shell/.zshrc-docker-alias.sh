@@ -1,6 +1,6 @@
 #!/bin/sh
 
-## docker
+# docker
 
 function dps() {
     # command docker ps --no-trunc $*

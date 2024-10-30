@@ -8,3 +8,4 @@ if(-not (Test-Path $PROFILE)){New-Item $PROFILE -Type File -Force}
 "" > $PROFILE
 
 Get-Content ./ps-docker-alias.ps1 >> $PROFILE
+Get-Content ./ps-git-alias.ps1 >> $PROFILE

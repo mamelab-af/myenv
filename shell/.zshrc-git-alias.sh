@@ -27,7 +27,6 @@ function gbranch() {
 alias gbra="gbranch"
 alias gbraall="gbranch --all"
 alias gbradelall="git branch --merged | xargs git branch -d"
-alias gbraDELall="git branch | xargs git branch -D"
 alias gbraDELALL="git branch | xargs git branch -D"
 
 function gbradel() {
