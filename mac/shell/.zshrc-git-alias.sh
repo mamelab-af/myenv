@@ -1,13 +1,5 @@
 #!/bin/sh
 
-function gfetchall() {
-    command git fetch -p
-    git checkout dev
-    git pull origin dev
-    git checkout staging
-    git pull origin staging
-}
-
 function gco() {
     command git checkout $*
 }

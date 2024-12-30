@@ -1,13 +1,5 @@
 # git
 
-function gfetchall() {
-    git fetch -p
-    git checkout dev
-    git pull origin dev
-    git checkout staging
-    git pull origin staging
-}
-
 function gco() {
     git checkout $args
 }
@@ -40,18 +32,18 @@ function gbradelall() {
     git branch --merged | xargs git branch -d
 }
 
-function gbraDELALL() {
-    git branch | xargs git branch -D
-}
+# function gbraDELALL() {
+#     git branch | xargs git branch -D
+# }
 
 function gbradel() {
     git branch -D $args
 }
 
-function gbraDEL() {
-    git push origin --delete $args
-    git branch -D $args
-}
+# function gbraDEL() {
+#     git push origin --delete $args
+#     git branch -D $args
+# }
 
 function gpull() {
     git pull origin $args

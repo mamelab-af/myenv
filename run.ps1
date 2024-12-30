@@ -1,10 +1,12 @@
+try {  
+  Push-Location $PSScriptRoot/windows/shell
 
-Push-Location shell
+  ./create-profile.ps1
 
-./create-profile.ps1
-
-echo "----- $PROFILE -----"
-Get-Content $PROFILE
-echo "----- $PROFILE -----"
-
-Pop-Location
+  echo "----- $PROFILE -----"
+  Get-Content $PROFILE
+  echo "----- $PROFILE -----"
+}
+finally {  
+  Pop-Location
+}
