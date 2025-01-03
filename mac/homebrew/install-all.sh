@@ -25,6 +25,7 @@ set -e
 ./install-by-homebrew.sh zoom
 ./install-by-homebrew.sh microsoft-office --cask
 
+./install-by-homebrew.sh dotnet-sdk --cask
 
 ./install-by-homebrew.sh openjdk
 # https://formulae.brew.sh/formula/openjdk
