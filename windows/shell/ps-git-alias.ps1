@@ -29,7 +29,7 @@ function gbraall() {
 }
 
 function gbradelall() {
-    git branch --merged | xargs git branch -d
+    git branch --merged | % { git branch -d $_.Trim() }
 }
 
 # function gbraDELALL() {
