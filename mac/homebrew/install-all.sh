@@ -27,9 +27,12 @@ set -e
 
 ./install-by-homebrew.sh dotnet-sdk --cask
 
-./install-by-homebrew.sh openjdk
+# ./install-by-homebrew.sh openjdk
 # https://formulae.brew.sh/formula/openjdk
 sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+./install-by-homebrew.sh hadolint
+./install-by-homebrew.sh powershell/tap/powershell
 
 #./install-by-homebrew.sh tomcat
 
