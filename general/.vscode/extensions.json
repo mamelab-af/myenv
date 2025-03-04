@@ -31,6 +31,8 @@
 		"ms-vscode.powershell",
 		// Markdownの拡張機能
 		"yzhang.markdown-all-in-one",
+		// MarkdownのLinter
+		"davidanson.vscode-markdownlint",
 		// TOMLのサポート
 		"tamasfe.even-better-toml",
 		// SVGプレビュー
