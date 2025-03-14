@@ -9,18 +9,20 @@ try {
   }
 
   # Generate key.
-  ssh-keygen -t ed25519 -C $email
+  ssh-keygen -t ed25519 -C $email -f ~/.ssh/github
 
   # Copy public key.
-  Get-Content ~/.ssh/id_ed25519.pub | Set-Clipboard
+  Get-Content ~/.ssh/github.pub | Set-Clipboard
 
   # Add public key to github(manual).
   Start-Process "https://github.com/settings/keys"
 
   # Add to ~/.ssh/config
-  Write-Output "Host github.com
-    IdentityFile ~/.ssh/github
-    User git" > ~/.ssh/config
+  Write-Output @"
+Host github.com
+  IdentityFile ~/.ssh/github
+  User git
+"@ > ~/.ssh/config
 
   # Test
   ssh -T github.com
