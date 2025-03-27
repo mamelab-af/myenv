@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		// Pythonデバッガ
+		"ms-python.debugpy",
+		// Python開発環境
+		"ms-python.python",
+		// Pythonの型チェック（Pylance）
+		"ms-python.vscode-pylance",
+	],
+	"unwantedRecommendations": []
+}

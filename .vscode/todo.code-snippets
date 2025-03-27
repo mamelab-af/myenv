@@ -1,0 +1,11 @@
+{
+	"js-ts-todo": {
+		"scope": "javascript,typescript",
+		"prefix": "todo",
+		"body": [
+			"// TODO($1): $2"
+		],
+		"description": "TODO"
+	}
+  
+}

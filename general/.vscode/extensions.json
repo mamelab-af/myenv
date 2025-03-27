@@ -1,0 +1,57 @@
+{
+	"recommendations": [
+		// 日本語言語パック
+		"ms-ceintl.vscode-language-pack-ja",
+		// VSCodeの終了確認を強化
+		"artdiniz.quitcontrol-vscode",
+		// エディタ設定の標準化
+		"editorconfig.editorconfig",
+		// コードフォーマッター（Prettier）
+		"esbenp.prettier-vscode",
+		// コードの整列
+		"gruntfuggly.align-mode",
+		// 一括リネームツール
+		"jannisx11.batch-rename-extension",
+		// JSONのキーのパスをコピー
+		"nidu.copy-json-path",
+		// インデントを色分け
+		"oderwat.indent-rainbow",
+		// スペルチェック
+		"streetsidesoftware.code-spell-checker",
+		// IntelliCodeのAPI使用例
+		"visualstudioexptteam.intellicode-api-usage-examples",
+		// VSCodeのAI補助（IntelliCode）
+		"visualstudioexptteam.vscodeintellicode",
+		// 数値を連番で挿入
+		"volkerdobler.insertnums",
+		//
+		// Extensions
+		//
+		// PowerShell開発支援
+		"ms-vscode.powershell",
+		// Markdownの拡張機能
+		"yzhang.markdown-all-in-one",
+		// MarkdownのLinter
+		"davidanson.vscode-markdownlint",
+		// TOMLのサポート
+		"tamasfe.even-better-toml",
+		// SVGプレビュー
+		"simonsiefke.svg-preview",
+		//
+		// Viewer
+		//
+		// VSCodeのテスト拡張機能
+		"ms-vscode.extension-test-runner",
+		// SQLクライアント
+		"mtxr.sqltools",
+		//
+		// Docker
+		//
+		// Docker統合
+		"ms-azuretools.vscode-docker",
+		// DockerfileのLintツール
+		"exiasr.hadolint",
+		//
+	],
+	"unwantedRecommendations": []
+}
