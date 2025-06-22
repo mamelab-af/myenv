@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		// Go開発環境
+		"golang.go",
+		//
+		// Protobuf
+		//
+		// Protobuf開発支援
+		"huang12zheng.protobuf-helper",
+		// Protobufの開発ツール
+		"pbkit.vscode-pbkit",
+	],
+	"unwantedRecommendations": []
+}

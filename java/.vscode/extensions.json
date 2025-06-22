@@ -1,0 +1,19 @@
+{
+	"recommendations": [
+		// Java開発環境
+		"redhat.java",
+		// Gradleサポート
+		"vscjava.vscode-gradle",
+		// Javaデバッガ
+		"vscjava.vscode-java-debug",
+		// Javaの依存関係管理
+		"vscjava.vscode-java-dependency",
+		// Javaの総合パック
+		"vscjava.vscode-java-pack",
+		// Javaのテストツール
+		"vscjava.vscode-java-test",
+		// Mavenサポート
+		"vscjava.vscode-maven",
+	],
+	"unwantedRecommendations": []
+}

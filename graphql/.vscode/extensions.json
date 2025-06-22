@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		// GraphQLの開発支援
+		"graphql.vscode-graphql",
+		// GraphQLの構文ハイライト
+		"graphql.vscode-graphql-syntax",
+	],
+	"unwantedRecommendations": []
+}

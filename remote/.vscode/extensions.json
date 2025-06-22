@@ -1,0 +1,31 @@
+{
+	"recommendations": [
+		// GitHub Codespaces
+		"github.codespaces",
+		// GitHubリモートリポジトリ管理
+		"github.remotehub",
+		// GitHub Actions対応
+		"github.vscode-github-actions",
+		// GitHubプルリクエスト管理
+		"github.vscode-pull-request-github",
+		// コンテナ内で開発
+		"ms-vscode-remote.remote-containers",
+		// SSHでリモート開発
+		"ms-vscode-remote.remote-ssh",
+		// SSH経由でのリモートファイル編集
+		"ms-vscode-remote.remote-ssh-edit",
+		// WSL対応
+		"ms-vscode-remote.remote-wsl",
+		// リモート開発の拡張パック
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		// Azure Repos（Gitの管理）
+		"ms-vscode.azure-repos",
+		// リモートエクスプローラー
+		"ms-vscode.remote-explorer",
+		// リモートリポジトリ管理
+		"ms-vscode.remote-repositories",
+		// リモートサーバー管理
+		"ms-vscode.remote-server"
+	],
+	"unwantedRecommendations": []
+}

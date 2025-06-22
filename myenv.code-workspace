@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "./c"
+		},
+		{
+			"path": "./frontend"
+		},
+		{
+			"path": "./general"
+		},
+		{
+			"path": "./go"
+		},
+		{
+			"path": "./graphql"
+		},
+		{
+			"path": "./java"
+		},
+		{
+			"path": "./python"
+		},
+		{
+			"path": "./remote"
+		},
+		{
+			"path": "./mac"
+		},
+		{
+			"path": "./windows"
+		},
+	],
+	"settings": {
+		"workbench.tree.indent": 16,
+		"powershell.cwd": "myenv"
+	}
+}

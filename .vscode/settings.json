@@ -1,0 +1,14 @@
+{
+  "workbench.tree.indent": 16,
+  "scm.repositories.visible": 0,
+  "editor.tabSize": 2,
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "[ps1]":{
+    "files.eol": "\r\n"
+  },
+  "[bat]": {
+    "files.eol": "\r\n"
+  },
+}

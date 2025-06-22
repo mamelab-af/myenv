@@ -1,0 +1,49 @@
+{
+	"recommendations": [
+		//
+		// HTML
+		//
+		// HTMLのファイルパス補完
+		"christian-kohler.path-intellisense",
+		//
+		// CSS
+		//
+		// Tailwind CSSの補完
+		"bradlc.vscode-tailwindcss",
+		//
+		// JavaScript / TypeScript
+		//
+		// JSONからTypeScript型定義を生成
+		"gregorbiswanger.json2ts",
+		// TypeScript拡張パック
+		"loiane.ts-extension-pack",
+		// インポートの自動整列
+		"mike-co.import-sorter",
+		// TypeScriptの最新機能を使用
+		"ms-vscode.vscode-typescript-next",
+		// TypeScriptのインポートを補完
+		"pmneo.tsimporter",
+		// TypeScriptファイルの移動時にインポートを更新
+		"stringham.move-ts",
+		//
+		// Linter
+		//
+		// ESLint（JavaScript/TypeScriptのLint）
+		"dbaeumer.vscode-eslint",
+		// Stylelint（CSSのリントツール）
+		"stylelint.vscode-stylelint",
+		//
+		// Deno
+		//
+		// Deno対応
+		"denoland.vscode-deno",
+		//
+		// React
+		//
+		// Reactスニペット
+		"dsznajder.es7-react-js-snippets",
+		// React Nativeのデバッグ
+		"msjsdiag.vscode-react-native",
+	],
+	"unwantedRecommendations": []
+}

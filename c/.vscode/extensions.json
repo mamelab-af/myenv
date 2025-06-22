@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		// CMakeツール
+		"ms-vscode.cmake-tools",
+		// C++開発環境
+		"ms-vscode.cpptools",
+		// C++拡張パック
+		"ms-vscode.cpptools-extension-pack",
+		// C++のテーマ
+		"ms-vscode.cpptools-themes",
+		// Makefileサポート
+		"ms-vscode.makefile-tools",
+		// CMake対応
+		"twxs.cmake",
+	],
+	"unwantedRecommendations": []
+}
